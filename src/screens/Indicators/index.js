@@ -8,6 +8,7 @@ import Card from '../../components/Card';
 import {colors} from '../../utils/colors';
 import Block from '../../components/Block';
 import {ScrollView} from 'react-native-gesture-handler';
+import { normalize } from '../../utils';
 
 export default function Indicators() {
   return (
@@ -45,8 +46,8 @@ export default function Indicators() {
                   },
                 ],
               }}
-              width={300}
-              height={300}
+              width={normalize(260)}
+              height={normalize(260)}
               verticalLabelRotation={0}
               segments={8}
               chartConfig={{

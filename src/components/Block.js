@@ -5,7 +5,6 @@ import {normalize} from '../utils';
 import {colors} from '../utils/colors';
 
 export default function Block({width, children, align}) {
-  console.log(align);
   return (
     <View
       style={[
